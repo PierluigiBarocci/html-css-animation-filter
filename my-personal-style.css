@@ -46,8 +46,17 @@
 }
 
 /* esercizio 8 */
-
 .well:hover .ex-8-img {
     filter: sepia(60%);
     border-radius: 15px;
+}
+
+/* esercizio 9 */
+.ex-9-img {
+    transition: 2s ease-in-out;
+}
+.well:hover .ex-9-img {
+    filter: sepia(60%);
+    border-radius: 15px;
+    transform: scale(1.3);
 }
