@@ -73,3 +73,14 @@
 .ruoto {
     animation: ruoto 2s linear infinite;
 }
+
+/* esercizio 11 */
+
+@keyframes mezzogiro {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(270deg);}
+    /* 100% {transform: rotate(0deg);} */
+}
+.mezzogiro:hover {
+    animation: mezzogiro 2s;
+}
