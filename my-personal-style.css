@@ -33,7 +33,14 @@
 }
 
 /* esercizio 6 */
+.ex-6-img, .ex-7-img {
+    transition: 1s ease-in-out;
+}
 .well:hover .ex-6-img {
-    transition: 2s;
     filter: grayscale(100%);
+}
+
+/* esercizio 7 */
+.well:hover .ex-7-img {
+    filter: sepia(80%);
 }
