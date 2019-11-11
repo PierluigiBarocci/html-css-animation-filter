@@ -3,3 +3,10 @@
     background-color: red;
     transition: 2s;
 }
+
+/* esercizio 2 */
+
+.ex-2-square:active {
+    width: 700px;
+    transition: 5s;
+}
