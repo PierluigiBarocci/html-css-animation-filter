@@ -31,3 +31,9 @@
     transform: scale(0.5);
     transition: 1s;
 }
+
+/* esercizio 6 */
+.well:hover .ex-6-img {
+    transition: 2s;
+    filter: grayscale(100%);
+}
