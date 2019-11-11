@@ -33,7 +33,7 @@
 }
 
 /* esercizio 6 */
-.ex-6-img, .ex-7-img {
+.ex-6-img, .ex-7-img, .ex-8-img {
     transition: 1s ease-in-out;
 }
 .well:hover .ex-6-img {
@@ -42,5 +42,12 @@
 
 /* esercizio 7 */
 .well:hover .ex-7-img {
-    filter: sepia(80%);
+    filter: sepia(60%);
+}
+
+/* esercizio 8 */
+
+.well:hover .ex-8-img {
+    filter: sepia(60%);
+    border-radius: 15px;
 }
