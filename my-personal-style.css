@@ -15,3 +15,9 @@
     border-radius: 50px;
     transition: 5s;
 }
+
+/* esercizio 4 */
+.ex-4-square:hover {
+    opacity: 0;
+    transition: 4s;
+}
